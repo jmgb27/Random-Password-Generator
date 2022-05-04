@@ -1,0 +1,114 @@
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: #1C1C1C;
+    padding: 10vh;
+}
+
+#Main{
+    background-color: #0C4A6E;
+    padding-left: 5%;
+    padding-top: 4%;
+    padding-right: 6%;
+    height:450px;
+    width:500px;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+h1{
+    color: white;
+    font-weight: 800;
+}
+
+#greenText {
+    color: #4ADF86;
+}
+
+p {
+    color: #D5D4D8;
+    font-weight: 300;
+}
+
+#belowGt {
+    font-weight: 200;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+#BtnSection {
+    columns: 2;
+    padding-top: 25px;
+    display: block;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 10px;
+    text-overflow: '';
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 10px 10px 0px;
+}
+
+#generate {
+    background-color: #10B981;
+    color: white;
+    border: hidden;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    display: inline-block;
+}
+
+#generate:hover {
+    background-color: #0c996a;
+}
+
+#generate:active {
+    transform: scale(0.95);
+}
+
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 1px;
+    background-color: #2F3E53;
+    border: none;
+}
+
+#output{
+    columns: 2;
+}
+
+#box1,#box2,#box3,#box4{
+    margin: 10px auto;
+    height: 30px;
+    width: 100%;
+    background-color: #273549;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    color: #55F991;
+    display: inline-block;
+}
+
+#box1:active,#box2:active,#box3:active,#box4:active{
+    transform: scale(0.95);
+}
+
+#output img {
+    display: block;
+    margin: 10px auto;
+}
+
+#generate::before {
+    content: url('./Bolt.png');
+    padding-right: 10px;
+    float: left;
+}

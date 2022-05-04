@@ -53,6 +53,7 @@ select {
     font-size: 18px;
     font-family: 'Inter', sans-serif;
     padding: 10px 10px 10px 0px;
+    width: inherit;
 }
 
 #generate {

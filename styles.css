@@ -2,6 +2,7 @@ body{
     font-family: 'Karla', sans-serif;
     background-color: #1C1C1C;
     padding: 10vh;
+    overflow: hidden;
 }
 
 #Main{
@@ -38,7 +39,6 @@ p {
 #BtnSection {
     columns: 2;
     padding-top: 25px;
-    display: block;
 }
 
 select {
@@ -112,4 +112,50 @@ hr{
     content: url('./Bolt.png');
     padding-right: 10px;
     float: left;
+}
+
+@media (max-width: 480px){
+
+    body {
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: #0C4A6E;
+    }
+
+    #Main {
+        height: 100vh;
+        width: 100vw;
+        padding: 0;
+        background-color: none;
+    }
+
+    #BtnSection {
+        columns: none;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #generate {
+        font-size: 13px;
+    }
+
+    select{
+        display: flex
+    }
+
+    #custom-select {
+        padding-top: 5px;
+        
+    }
+
+    #output {
+        columns: 1;
+        max-width: 50vw;
+    }
+
+    hr{
+        margin: 10px 0px;
+    }
 }
